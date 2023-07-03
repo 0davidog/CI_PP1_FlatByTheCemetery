@@ -17,17 +17,25 @@ a {
 }
 
 header {
-	text-align:center;
+	text-align: center;
 	color: inherit;
-	letter-spacing: 4px;
 	font-weight: lighter;
 }
 
 header h1 {
-	color: #790000;
+	color: #990000;
 	font-weight: inherit;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+nav {
+	letter-spacing: 4px;
+	word-spacing: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .active-link {
-	color: #790000;
+	color: #990000;
 }
