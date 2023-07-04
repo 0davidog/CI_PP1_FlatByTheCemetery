@@ -8,7 +8,7 @@ body {
 	background-color: #000000;
 	color: #ffffff;
 	font-family: Palatino, Georgia, serif;
-	font-size: 120%;
+	font-size: 110%;
 	
 }
 
@@ -73,4 +73,12 @@ footer {
 	font-size: 250%;
 	word-spacing: 10px;
 	padding-bottom: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+	#tagline-box {
+		bottom: 72%;
+		left: 12%;
+		
+	}
 }
