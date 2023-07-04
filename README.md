@@ -1,39 +1,90 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Flat by the Cemetery
 
-Welcome,
+Flat by the Cemetery is a portfolio website that showcases the visual work of an artist/illustrator.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Visitors to the site will be able to find information on the artist, see examples of their work, and get in touch via a contact form or social media links. The site is targeted at those that may wish to learn more about the work or follow any developments as well as potential clients and colaborators.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+![alt text](does it scale image)
 
-## Codeanywhere Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- ### Navigation Bar
 
-`python3 -m http.server`
+  - The Navigation bar sits at the top of the page and displays the sites title 'Flat by the Cemetery' in the top left corner on a large screen or top centre on a mobile screen. The title also acts as a link to the homepage/landing page.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  - Navigation links sit on the right on a large screen or center (under title) on a small screen and feature links to the Home, Gallery, About and Contact pages.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![alt text](Nav bar image)
 
-`http_server`
+- ### Title and colour Scheme
+  - The title, 'Flat by the Cemetery' is chosen simply because the author lives in an appartment building opposite an old cemetery and has used this as a social media handle.
+  - The colour scheme by concequence is inspired by a poster in the appartment for the similarly named Italian horror film 'The House by the Cemetery'.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![alt text](poster image?)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- ### Footer
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The footer remains at the bottom of the page and provides social media links for ease of access as this is often users prefered mode of following work and communicating with indivdual creatives or small buisneses. Social links are always situated on the right of the footer.
+  - The left of the footer displays a copyright reminder as users will be viewing images of an artists work. This is to discourage unorthorised use of the images.
 
-To log into the Heroku toolbelt CLI:
+- ### Home Image/text
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - The Home page contains a background image that gives user an idea of the artists work and fits thematically with the title and colour scheme of the site.
+  - Placed in front the image is a tagline that displays the artists name, work and country of origin to tell a visitor the subject and purpose of the site.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![alt text]()
 
----
+- ### Gallery Section
 
-Happy coding!
+  - Gallery section consists of a main menu in which visitors can select from an option of 4 gallery collections.
+  - There is nav bar at the top of the page with text links to each of the collections or alternatively users can select one of the four image links displayed below.
+
+![alt text]()
+
+- About section
+  - About section contains an paragraph which gives a more detailed overview of the artist and their work.
+  - An image of the artist accompanys the text.
+
+![alt text]()
+
+- Contact Form
+  - Contact page contains a form in which users can get in touch with the artist.
+  - Form elements include fields for name, email, subject and message content. A submit button follows.
+  - Subject field is an optional dropdown menu which lists the images displayed on the site should the user wish to comment on or discuss one piece in particular.
+
+![alt text]()
+
+## Testing
+
+=========
+
+- The page has been tested on different browsers.
+- Site scaled to different screen sizes corectly.
+- Navigation inks are readable and easy to understand.
+- Images appear and are scaled or positioned correctly.
+- Form works. All fields required. email only in relevant field.
+
+### Bugs
+
+### Validator Testing
+
+![alt text](lighthouse)
+
+### Unfixed Bugs
+
+## Deployment
+
+=============
+
+_The site was deployed to GitHub pages.
+--_[Active Site Link](https://)
+
+## Credits
+
+==========
+
+### Content
+
+### Media
+
+All images used are the author's own work.
