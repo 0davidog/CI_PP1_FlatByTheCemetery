@@ -18,6 +18,9 @@ a {
 }
 
 header {
+	position: fixed;
+	top: 0;
+	width: 100%;
 	background-color: rgba(0,0,0,0.50);
 	text-align: center;
 	color: inherit;
@@ -35,10 +38,12 @@ nav {
 	letter-spacing: 4px;
 	word-spacing: 4px;
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 }
 #gallery-nav-bar {
 	color: #888888;
+	word-spacing: 7px;
+	padding-bottom: 10px;
 }
 nav a:hover {
 	color: #990000;
@@ -81,6 +86,19 @@ footer {
 	word-spacing: 10px;
 	padding-bottom: 10px;
 }
+.thumbnail-wrap {
+	margin-top: 35%;
+	margin-bottom: 35%;
+	text-align: center;
+}
+.thumbnail {
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	background-color: #888888;
+	line-height: 200px;
+	margin: 10px;
+}
 
 @media screen and (min-width: 700px) {
 	#tagline-box {
@@ -93,6 +111,12 @@ footer {
 	#tagline-box {
 		bottom: 72%;
 		left: 12%;
+		
+	}
+	.thumbnail-wrap {
+		width: 50%;
+		margin-left: 25%;
+		margin-top: 12%;
 		
 	}
 }
