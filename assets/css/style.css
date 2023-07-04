@@ -8,6 +8,7 @@ body {
 	background-color: #000000;
 	color: #ffffff;
 	font-family: Palatino, Georgia, serif;
+	font-size: 120%;
 	
 }
 
@@ -20,12 +21,12 @@ header {
 	background-color: rgba(0,0,0,0.50);
 	text-align: center;
 	color: inherit;
-	font-weight: lighter;
 }
 
 header h1 {
 	color: #990000;
 	font-weight: inherit;
+	font-size: 200%;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -47,6 +48,15 @@ nav {
 	background-size: cover;
 	height: 100vh;
 }
+#tagline-box {
+	position: absolute;
+	bottom: 40%;
+	width: 215px;
+	text-align: left;
+	left: 15%;
+	background-color: rgba(0,0,0,0.50);
+	padding: 25px;
+}
 
 footer {
 	background-color: rgba(0,0,0,0.50);
@@ -58,7 +68,7 @@ footer {
 	padding-bottom: 10px;
 }
 
-#socials {
+#social-links {
 	color: #990000;
 	font-size: 250%;
 	word-spacing: 10px;
