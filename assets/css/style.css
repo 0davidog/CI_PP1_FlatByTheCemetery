@@ -37,7 +37,9 @@ nav {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-
+#gallery-nav-bar {
+	color: #888888;
+}
 nav a:hover {
 	color: #990000;
 	border-bottom: 1px solid #990000;
