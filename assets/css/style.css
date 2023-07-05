@@ -1,8 +1,14 @@
+/* Welcome to the css file */
+
+/* Removing initial formatting with wildcard selector */
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+
+/* Setting basic page style and font stlye */
 
 body {
 	background-color: #000000;
@@ -17,6 +23,8 @@ a {
 	color: inherit;
 }
 
+/* Styling and positioning the header elements */
+
 header {
 	position: fixed;
 	top: 0;
@@ -24,7 +32,10 @@ header {
 	background-color: rgba(0,0,0,0.50);
 	text-align: center;
 	color: inherit;
+	z-index: 1;
 }
+
+/* Styling and positioning h1 page logo */
 
 header h1 {
 	color: #990000;
@@ -34,25 +45,37 @@ header h1 {
 	padding-bottom: 10px;
 }
 
+/* Styling and positioning navigation links */
+
 nav {
 	letter-spacing: 4px;
 	word-spacing: 4px;
 	padding-top: 5px;
 	padding-bottom: 10px;
 }
+
+/* Styling for additional navigation bar in gallery pages */
+
 #gallery-nav-bar {
 	color: #888888;
 	word-spacing: 7px;
 	padding-bottom: 10px;
 }
+
+/* Appling style to links when hovered over */
+
 nav a:hover {
 	color: #990000;
 	border-bottom: 1px solid #990000;
 }
 
+/* Appling style to links that are marked with the class 'active-link' */
+
 .active-link {
 	color: #990000;
 }
+
+/* Formatting the background image for div container on index page */
 
 #index-background {
 	background-image: url('../images/background-image-church.jpg');
@@ -60,6 +83,9 @@ nav a:hover {
 	background-size: cover;
 	height: 100vh;
 }
+
+/* Styling/positioning index page's description box */
+
 #tagline-box {
 	position: absolute;
 	bottom: 40%;
@@ -69,6 +95,8 @@ nav a:hover {
 	background-color: rgba(0,0,0,0.50);
 	padding: 25px;
 }
+
+/* Footer Section style and positioning */
 
 footer {
 	background-color: rgba(0,0,0,0.50);
@@ -80,19 +108,27 @@ footer {
 	padding-bottom: 10px;
 }
 
+/* Font formatting for fontawesome icons */
+
 #social-links {
 	color: #990000;
 	font-size: 250%;
 	word-spacing: 10px;
 	padding-bottom: 10px;
 }
+
+/* Styling and positioning Gallery thumnail grid */
+
 .thumbnail-wrap {
 	margin-top: 35%;
 	margin-bottom: 35%;
+	height: 100vh;
 	text-align: center;
+	position:relative;
 }
 .thumbnail {
 	display: inline-block;
+	position:relative;
 	width: 300px;
 	height: 200px;
 	background-color: #888888;
@@ -100,12 +136,36 @@ footer {
 	margin: 10px;
 }
 
+.thumbnail img {
+	opacity: 0.5;
+}
+
+.thumbnail img:hover {
+	opacity: 1;
+}
+
+.thumbnail-overlay {
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	left: 10%;
+	line-height: normal;
+	background-color: rgba(0,0,0,0.60);
+	padding: 5px;
+}
+
+/* Media Queries Section */
+
+/* Styling and positioning edits for tablet size */
+
 @media screen and (min-width: 700px) {
 	#tagline-box {
 		bottom: 40%;
 		left: 30%;
 		
 	}
+	
+/* Styling and positioning edits for desktop size */
 	
 @media screen and (min-width: 1200px) {
 	#tagline-box {
@@ -123,4 +183,3 @@ footer {
 		margin: 20px;
 	}
 }
-
