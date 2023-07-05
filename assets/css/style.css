@@ -164,18 +164,8 @@ footer {
 .gallery-title {
 	position: fixed;
 	top: 0;
-	padding-top: 50px;
+	padding-top: 25px;
 	width: 100vw;
-	background-color: #000000;
-}
-.gallery-exit {
-	position:fixed;
-	top: 0;
-	right: 0;
-	padding-right: 40px;
-	padding-top: 20px;
-	width: 100%;
-	text-align: right;
 	background-color: #000000;
 }
 .picture-frame {
