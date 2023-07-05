@@ -179,6 +179,41 @@ footer {
 	color: #888888;
 	padding-bottom: 150px;
 }
+
+/* Styling and positioning the contact form elements */
+
+#contact-form-container {
+	width: 100vw;
+	margin-top: 110px;
+	text-align: center;
+	line-height: 30px;
+}
+#contact-form {
+	display: inline-block;
+	width: 300px;
+	text-align: left;	
+}
+
+#name, #email {
+	width: 290px;
+	padding: 5px;
+}
+#subject {
+	width: 300px;
+	padding: 5px;
+}
+textarea {
+	resize: none;
+}
+#contact-form-button-wrap {
+	width: 100%;
+	text-align: right;
+}
+#submit {
+	display: inline-block;
+	padding: 5px;
+}
+
 /* Media Queries Section */
 
 /* Styling and positioning edits for tablet size */
