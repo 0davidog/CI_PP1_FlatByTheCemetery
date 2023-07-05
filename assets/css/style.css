@@ -37,7 +37,7 @@ header {
 
 /* Styling and positioning h1 page logo */
 
-h1 {
+h1, h2 {
 	color: #990000;
 	font-weight: inherit;
 	font-size: 200%;
@@ -161,13 +161,6 @@ footer {
 	height: 100vh;
 	width: 100vw;
 }
-.gallery-title {
-	position: fixed;
-	top: 0;
-	padding-top: 25px;
-	width: 100vw;
-	background-color: #000000;
-}
 .picture-frame {
 	display: inline-block;
 	margin-top: 150px;
@@ -176,10 +169,15 @@ footer {
 .picture-frame img{
 	width: 100%;
 }
+.gallery-title {
+	padding: 10px 5%;
+	text-align: left;
+}
 .gallery-text {
 	padding: 10px 5%;
 	text-align: left;
 	color: #888888;
+	padding-bottom: 150px;
 }
 /* Media Queries Section */
 
