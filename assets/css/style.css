@@ -207,4 +207,7 @@ footer {
 	.thumbnail {
 		margin: 20px;
 	}
+	.picture-frame {
+		width: 1000px;
+	}
 }
