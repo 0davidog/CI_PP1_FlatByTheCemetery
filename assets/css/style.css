@@ -219,7 +219,6 @@ textarea {
 /* learning from https://www.taniarascia.com/easiest-flex-grid-ever/ */
 
 #about-section-container {
-	width: 100vw;
 }
 #about-section {
 	margin-top: 100px;
@@ -231,7 +230,7 @@ textarea {
 #portrait {
 	text-align: center;
 	flex-basis: 100%;
-	padding-top: 75px;
+	padding-top: 50px;
 	color: #888888;
 }
 #portrait img {
