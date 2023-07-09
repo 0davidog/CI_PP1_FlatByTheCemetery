@@ -169,7 +169,7 @@ footer {
 .picture-frame img{
 	width: 100%;
 }
-.gallery-title {
+.picture-frame h2 {
 	padding: 10px 5%;
 	text-align: left;
 }
