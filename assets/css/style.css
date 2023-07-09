@@ -38,7 +38,7 @@ header {
 /* Styling and positioning h1 page logo */
 
 h1, h2 {
-	color: #990000;
+	color: #ff0000;
 	font-weight: inherit;
 	font-size: 200%;
 	padding-top: 10px;
@@ -65,14 +65,14 @@ nav {
 /* Appling style to links when hovered over */
 
 nav a:hover {
-	color: #990000;
+	color: #ff0000;
 	border-bottom: 1px solid #990000;
 }
 
 /* Appling style to links that are marked with the class 'active-link' */
 
 .active-link {
-	color: #990000;
+	color: #ff0000;
 }
 
 /* Formatting the background image for div container on index page */
@@ -111,7 +111,7 @@ footer {
 /* Font formatting for fontawesome icons */
 
 #social-links {
-	color: #990000;
+	color: #ff0000;
 	font-size: 250%;
 	word-spacing: 10px;
 	padding-bottom: 10px;
@@ -208,9 +208,9 @@ textarea {
 #submit {
 	display: inline-block;
 	padding: 5px;
-	border: 1px solid #990000;
+	border: 1px solid #ff0000;
 	background-color: #000000;
-	color: #990000;
+	color: #ff0000;
 	font-size: 100%;
 	border-radius: 5px;
 }
