@@ -78,7 +78,8 @@ nav a:hover {
 /* Formatting the background image for div container on index page */
 
 #index-background {
-	background-image: url('../images/background-image-church.webp');
+	background-image: url('../images/background-image-church.webp'),
+	url('../images/background-image-church.jpg');
 	background-position: center 20%;
 	background-size: cover;
 	height: 100vh;
@@ -138,6 +139,8 @@ footer {
 
 .thumbnail img {
 	opacity: 0.5;
+	width: 300px;
+	height: 200px;
 }
 
 .thumbnail img:hover {
