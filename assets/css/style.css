@@ -28,7 +28,7 @@ a {
 header {
 	position: fixed;
 	top: 0;
-	width: 100%;
+	width: 100vw;
 	background-color: rgba(0,0,0,0.50);
 	text-align: center;
 	color: inherit;
@@ -52,6 +52,7 @@ nav {
 	word-spacing: 4px;
 	padding-top: 5px;
 	padding-bottom: 10px;
+	line-height: 200%;
 }
 
 /* Styling for additional navigation bar in gallery pages */
@@ -89,9 +90,10 @@ nav a:hover {
 #tagline-box {
 	position: absolute;
 	bottom: 40%;
-	width: 215px;
+	width: 200px;
 	text-align: left;
-	left: 15%;
+	left: 50%;
+	transform: translate(-50%, 0);
 	background-color: rgba(0,0,0,0.50);
 	padding: 25px;
 }
@@ -120,8 +122,8 @@ footer {
 /* Styling and positioning Gallery thumnail grid */
 
 .thumbnail-wrap {
-	margin-top: 35%;
-	margin-bottom: 35%;
+	margin-top: 300px;
+	margin-bottom: 0;
 	height: 100vh;
 	text-align: center;
 	position:relative;
@@ -130,13 +132,15 @@ footer {
 	display: inline-block;
 	position:relative;
 	width: 300px;
-	height: 200px;
+	height: 50px;
 	background-color: #888888;
 	line-height: 200px;
-	margin: 10px;
+	margin: auto;
+	overflow: hidden;
 }
 
 .thumbnail img {
+	
 	opacity: 0.5;
 	width: 300px;
 	height: 200px;
@@ -149,8 +153,9 @@ footer {
 .thumbnail-overlay {
 	position: absolute;
 	text-align: center;
-	top: 42%;
-	left: 30%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	line-height: normal;
 	background-color: rgba(0,0,0,0.60);
 	padding: 5px;
@@ -165,7 +170,7 @@ footer {
 }
 .picture-frame {
 	display: inline-block;
-	margin-top: 150px;
+	margin-top: 300px;
 	width: 90%;
 }
 .picture-frame img{
@@ -249,16 +254,64 @@ textarea {
 
 /* Media Queries Section */
 
-/* Styling and positioning edits for tablet size */
+/* Styling and positioning edits for phone size ref. 'iphone SE' 375x667 */
 
-@media screen and (min-width: 700px) {
-	#tagline-box {
-		bottom: 40%;
-		left: 30%;
-		
+@media screen and (min-width: 375px) {
+	nav {
+		line-height: 100%;
+	}
+	nav br {
+		display: none;
+	}
+	#copyright-text br {
+		display: none;
+	}
+	#gallery-nav-bar br {
+		display: none;
+	}
+	.thumbnail-wrap {
+		margin-top: 200px;
+		margin-bottom: 300px;
+	}
+	.thumbnail {
+		height: 200px;
+		width: 300px;
+	}
+	.picture-frame {
+		margin-top: 150px;
 	}
 }
-/* Styling and positioning edits for desktop size */
+
+/* Styling and positioning edits for tablet size ref. 'ipad mini' 768x1024 */
+
+@media screen and (min-width: 768px) {
+	#tagline-box {
+		bottom: 72%;
+		left: 12%;
+		transform: translate(0, 0);
+	}
+	.thumbnail-wrap {
+		width: 700px;
+		margin-left: 50%;
+		margin-top: 200px;
+		height: 500px;
+		transform: translate(-50%, 0);
+	}
+		.thumbnail {
+		margin: 10px;
+}
+
+/* Styling and positioning edits for tablet size ref. 'Nest Hub' 1024x600 */
+
+@media screen and (min-width: 1000px) and (min-height: 600px) {
+	#tagline-box {
+		bottom: 65%;
+	}
+		.thumbnail {
+		margin: 10px;
+}
+
+/* Styling and positioning edits for desktop sizes */
 	
 @media screen and (min-width: 1200px) {
 	#tagline-box {
@@ -266,13 +319,14 @@ textarea {
 		left: 12%;	
 	}
 	.thumbnail-wrap {
-		width: 50%;
-		margin-left: 25%;
+		width: 700px;
+		margin-left: 50%;
+		transform: translate(-50%, 0);
 		margin-top: 12%;
 		
 	}
 	.thumbnail {
-		margin: 20px;
+		margin: 10px;
 	}
 	.picture-frame {
 		width: 1000px;
@@ -281,7 +335,9 @@ textarea {
 		margin-top: 175px;
 	}
 }
+
 /*media query for flex grid */
+/* learning from https://www.taniarascia.com/easiest-flex-grid-ever/ */
 	
 @media screen and (min-width: 800px) {
 	#portrait {
