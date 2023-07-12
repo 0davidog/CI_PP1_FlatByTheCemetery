@@ -27,12 +27,14 @@ header {
 	z-index: 1;
 }
 /* Styling and positioning h1 page logo */
-h1, h2 {
+h1, h2, h3 {
 	color: #ff0000;
 	font-weight: inherit;
-	font-size: 200%;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+em {
+	color: #888888;
 }
 /* Styling and positioning navigation links */
 nav {
@@ -206,9 +208,9 @@ textarea {
 #portrait img {
 	width: 80%;
 	padding-bottom: 10px;
-
 }
 #about-text {
+	line-height: 200%;
 	padding: 20px;
 	flex-basis: 100%;
 }
