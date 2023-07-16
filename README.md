@@ -78,16 +78,20 @@ The font choice for the site is the serif font Palatino as this resembles the te
 
 ### About section
   - About section contains an paragraph which gives a more detailed overview of the artist and their work.
-  - An image of the artist accompanys the text.
 
-![alt text]()
+### Contact Form
+  - The 'Contact' page contains a form in which the user can get in touch with the artist.
+  - Form elements include text inputs for name, email and subject and a text field for message content.
+  - A submit button, styled in red follows.
+  - All fields except Subject will be required for submission.
+    
+![Screenshot 2023-07-16 at 12-35-54 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/98afaa42-9388-4310-94da-76e09bcdabc1)
 
-- Contact Form
-  - Contact page contains a form in which users can get in touch with the artist.
-  - Form elements include fields for name, email, subject and message content. A submit button follows.
-  - Subject field is an optional dropdown menu which lists the images displayed on the site should the user wish to comment on or discuss one piece in particular.
+  - Upon completing the form and hitting submit, the form (for the time being) will make use of CodeInstitutes form dump link given in the lessons leading up to the first project. This will open a link in a new window confirming the form was successful.
+  - In the future the form should send the data given to the site's author via email message. 
 
-![alt text]()
+![Screenshot 2023-07-16 at 14-03-46 Returned form data](https://github.com/0davidog/flatbythecemetery/assets/135815736/a2c16409-d6f7-4ce8-b3a4-a4aaa845b4b1)
+
 
 ## Testing
 
