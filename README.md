@@ -95,32 +95,22 @@ The font choice for the site is the serif font Palatino as this resembles the te
 
 ## Testing
 
-=========
-
-- The page has been tested on different browsers.
-- Site scaled to different screen sizes corectly.
-- Navigation inks are readable and easy to understand.
-- Images appear and are scaled or positioned correctly.
-- Form works. All fields required. email only in relevant field.
-
-### Bugs
-
-### Validator Testing
-
-![alt text](lighthouse)
-
-### Unfixed Bugs
-
-## Deployment
-
-=============
-
-_The site was deployed to GitHub pages.
---_[Active Site Link](https://)
-
 ## Credits
 
-==========
+### Font Awesome Icons
+
+ - The Icons for Instagram and Youtube were sourced from the [Font Awesome website](https://fontawesome.com/).
+ - [Instagram Icon](https://fontawesome.com/icons/instagram?f=brands&s=solid)
+ - [Youtube Icon](https://fontawesome.com/icons/youtube?f=brands&s=solid)
+   
+```
+				<a href="https://instagram.com/flatbythecemetery" target="_blank" rel="noopener" aria-label="Vist our Instagram page (opens in a new tab)">
+					<i class="fa-brands fa-instagram" title="fontawesome Instagram logo"></i>
+				</a>
+				<a href="https://youtube.com/channel/UC8wHcC0aB9f6SX9jpmDqKBA" target="_blank" rel="noopener" aria-label="Vist our Youtube page (opens in a new tab)">
+					<i class="fa-brands fa-youtube" title="fontawesome Youtube logo"></i>
+				</a>
+```
 
 ### Content
 
