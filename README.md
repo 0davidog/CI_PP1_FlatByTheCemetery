@@ -77,7 +77,10 @@ The font choice for the site is the serif font Palatino as this resembles the te
 ![Screenshot 2023-07-16 at 13-23-14 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/ae1565c9-321b-4131-bd77-a94d1eede2a6)
 
 ### About section
-  - About section contains an paragraph which gives a more detailed overview of the artist and their work.
+  - About section contains a paragraph which gives an overview of the artist and their work as well as links to Instagram, Youtube and Linkedin.
+  - The section is also decorated with the same image use as the index background, used here as an aside to the text.
+
+![Screenshot 2023-07-16 at 16-39-44 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/6fe96578-26cb-49f0-8e03-c114306bbb8d)
 
 ### Contact Form
   - The 'Contact' page contains a form in which the user can get in touch with the artist.
@@ -102,15 +105,8 @@ The font choice for the site is the serif font Palatino as this resembles the te
  - The Icons for Instagram and Youtube were sourced from the [Font Awesome website](https://fontawesome.com/).
  - [Instagram Icon](https://fontawesome.com/icons/instagram?f=brands&s=solid)
  - [Youtube Icon](https://fontawesome.com/icons/youtube?f=brands&s=solid)
-   
-```
-				<a href="https://instagram.com/flatbythecemetery" target="_blank" rel="noopener" aria-label="Vist our Instagram page (opens in a new tab)">
-					<i class="fa-brands fa-instagram" title="fontawesome Instagram logo"></i>
-				</a>
-				<a href="https://youtube.com/channel/UC8wHcC0aB9f6SX9jpmDqKBA" target="_blank" rel="noopener" aria-label="Vist our Youtube page (opens in a new tab)">
-					<i class="fa-brands fa-youtube" title="fontawesome Youtube logo"></i>
-				</a>
-```
+ - [Linkedin Icon](https://fontawesome.com/icons/linkedin?f=brands&s=solid)
+
 
 ### Content
 
