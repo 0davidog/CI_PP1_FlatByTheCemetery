@@ -20,20 +20,27 @@ Here is a PDF of the wireframes put together at the sites inseption. Adobe photo
 
 - ### Main Image
 - The first thing a user will take notice of is the large background image that domminates the index page. This will immedietdly give the user an idea what the site is about and sets the tone stylisicly for the content within.
-- The 
+- A short line of description 'Art and illustration by David C. O’Gara. Based in Derbyshire, UK" is in front of the image in varying positions dependant of screen size. This wil let the user know the subject of the site if they weren't already aware. The container has a black background at half transparency to aid in readability and contrast against the page's background image.
+
+As this is the only content that is featured exclusively on the landing/index page the user should have thier attention drawn to the header, displaying the sites title and its navigation menu.
+
+### About the title and colour scheme
+
+The title for the site, 'Flat by the Cemetery' was chosen simply due to the fact the the sites author has lived for some years in an appartment building across from and old cemetery and had been using it already as an [Instagram](https://www.instagram.com/flatbythecemetery/) handle where much the artwork is already shared. The colour scheme follows on from this theme in direct homage to a poster of the Luci Fulci film 'House by the Cemetery' that was displayed in the appartment after moving in. This color scheme is black (#000000) for the background, white (#ffffff) for the text and red (#ff0000) for highlights such as headings and active links. A grey colour (#888888) was chosen for emphasis of subtitles and the gallery's additional navingation menu. Originaly the red highlight used was a darker shade (#990000) out of personal preference but this was changed to aid in contrast and readability.
+
+![Color scheme image screenshot using https://coolors.co/](https://github.com/0davidog/flatbythecemetery/assets/135815736/ed7fa0c8-1451-46e0-b801-c2ef93a2a093)
+
+![House by the Cemetery poster in the author's flat](https://github.com/0davidog/flatbythecemetery/assets/135815736/6295bfc6-9c19-4bd7-b0e5-24173f7daa2f)
+
+### About the font choice
+
+The font choice for the site is the serif font Palatino as this resembles the text of a paperback novel and fits within the sites themes of horror-fiction. 
+ 
 - ### Navigation Bar
+  - The navigation bar sits below the sites h1 title in the header and displays in text the links for 'Home, Gallery, About and Contact'. Active and highlighted (hovered over) links will be displayed in red with the hovered-over links underlined while standard links are the sites default white with no extra adornment.
+  - The order of the links reflect the visual nature of the site, users are encoraged to explore further after their encounter with the 'Home' page and presumably intend to check out more of the work directly at the 'Gallery'. Then if interested by the work the 'About' page offers a place they can visit next to learn a little more about the artist. Finally in the interest of further interaction the user can submit a message to the artist directly using the 'Contact' page.
 
-  - The Navigation bar sits at the top of the page and displays the sites title 'Flat by the Cemetery' in the top left corner on a large screen or top centre on a mobile screen. The title also acts as a link to the homepage/landing page.
-
-  - Navigation links sit on the right on a large screen or center (under title) on a small screen and feature links to the Home, Gallery, About and Contact pages.
-
-![alt text](Nav bar image)
-
-- ### Title and colour Scheme
-  - The title, 'Flat by the Cemetery' is chosen simply because the author lives in an appartment building opposite an old cemetery and has used this as a social media handle.
-  - The colour scheme by concequence is inspired by a poster in the appartment for the similarly named Italian horror film 'The House by the Cemetery'.
-
-![alt text](poster image?)
+![Screenshot 2023-07-16 at 11-52-54 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/fb7ec8ff-41f2-41e3-9f5b-0102f624211c)
 
 - ### Footer
 
