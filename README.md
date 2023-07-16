@@ -102,15 +102,8 @@ The font choice for the site is the serif font Palatino as this resembles the te
  - The Icons for Instagram and Youtube were sourced from the [Font Awesome website](https://fontawesome.com/).
  - [Instagram Icon](https://fontawesome.com/icons/instagram?f=brands&s=solid)
  - [Youtube Icon](https://fontawesome.com/icons/youtube?f=brands&s=solid)
-   
-```
-				<a href="https://instagram.com/flatbythecemetery" target="_blank" rel="noopener" aria-label="Vist our Instagram page (opens in a new tab)">
-					<i class="fa-brands fa-instagram" title="fontawesome Instagram logo"></i>
-				</a>
-				<a href="https://youtube.com/channel/UC8wHcC0aB9f6SX9jpmDqKBA" target="_blank" rel="noopener" aria-label="Vist our Youtube page (opens in a new tab)">
-					<i class="fa-brands fa-youtube" title="fontawesome Youtube logo"></i>
-				</a>
-```
+ - [Linkedin Icon](https://fontawesome.com/icons/linkedin?f=brands&s=solid)
+
 
 ### Content
 
