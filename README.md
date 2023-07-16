@@ -4,10 +4,23 @@ Flat by the Cemetery is a portfolio website that showcases the visual work of an
 
 Visitors to the site will be able to find information on the artist, see examples of their work, and get in touch via a contact form or social media links. The site is targeted at those that may wish to learn more about the work or follow any developments as well as potential clients and colaborators.
 
-![alt text](does it scale image)
+![am-i-responsive-image](https://github.com/0davidog/flatbythecemetery/assets/135815736/4541a755-539d-4e64-8409-3ba444810770)
+
+## Deployed Website
+
+[Flat by the Cemetery](https://0davidog.github.io/flatbythecemetery/index.html) via Github Pages.
+
+## Wireframes
+
+Here is a PDF of the wireframes put together at the sites inseption. Adobe photoshop was used to visually plan the sites look and layout.
+
+[Wireframes.pdf](https://github.com/0davidog/flatbythecemetery/files/12063710/Wireframes.pdf)
 
 ## Features
 
+- ### Main Image
+- The first thing a user will take notice of is the large background image that domminates the index page. This will immedietdly give the user an idea what the site is about and sets the tone stylisicly for the content within.
+- The 
 - ### Navigation Bar
 
   - The Navigation bar sits at the top of the page and displays the sites title 'Flat by the Cemetery' in the top left corner on a large screen or top centre on a mobile screen. The title also acts as a link to the homepage/landing page.
