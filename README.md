@@ -1,5 +1,7 @@
 # Flat by the Cemetery
 
+_Author: David O'Gara_
+
 Flat by the Cemetery is a portfolio website that showcases the visual work of an artist/illustrator.
 
 Visitors to the site will be able to find information on the artist, see examples of their work, and get in touch via a contact form or social media links. The site is targeted at those that may wish to learn more about the work or follow any developments as well as potential clients and colaborators.
@@ -10,6 +12,9 @@ Visitors to the site will be able to find information on the artist, see example
 
 [Flat by the Cemetery](https://0davidog.github.io/flatbythecemetery/index.html) via Github Pages.
 
+## Repository
+[Github](https://github.com/0davidog/flatbythecemetery/) Repository. 
+
 ## Wireframes
 
 Here is a PDF of the wireframes put together at the sites inseption. Adobe photoshop was used to visually plan the sites look and layout.
@@ -18,7 +23,7 @@ Here is a PDF of the wireframes put together at the sites inseption. Adobe photo
 
 ## Features
 
-- ### Main Image
+### Main Image
 - The first thing a user will take notice of is the large background image that domminates the index page. This will immedietdly give the user an idea what the site is about and sets the tone stylisicly for the content within.
 - A short line of description 'Art and illustration by David C. O’Gara. Based in Derbyshire, UK" is in front of the image in varying positions dependant of screen size. This wil let the user know the subject of the site if they weren't already aware. The container has a black background at half transparency to aid in readability and contrast against the page's background image.
 
@@ -36,23 +41,19 @@ The title for the site, 'Flat by the Cemetery' was chosen simply due to the fact
 
 The font choice for the site is the serif font Palatino as this resembles the text of a paperback novel and fits within the sites themes of horror-fiction. 
  
-- ### Navigation Bar
+### Navigation Bar
   - The navigation bar sits below the sites h1 title in the header and displays in text the links for 'Home, Gallery, About and Contact'. Active and highlighted (hovered over) links will be displayed in red with the hovered-over links underlined while standard links are the sites default white with no extra adornment.
   - The order of the links reflect the visual nature of the site, users are encoraged to explore further after their encounter with the 'Home' page and presumably intend to check out more of the work directly at the 'Gallery'. Then if interested by the work the 'About' page offers a place they can visit next to learn a little more about the artist. Finally in the interest of further interaction the user can submit a message to the artist directly using the 'Contact' page.
 
 ![Screenshot 2023-07-16 at 11-52-54 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/fb7ec8ff-41f2-41e3-9f5b-0102f624211c)
 
-- ### Footer
+### Footer
 
-  - The footer remains at the bottom of the page and provides social media links for ease of access as this is often users prefered mode of following work and communicating with indivdual creatives or small buisneses. Social links are always situated on the right of the footer.
-  - The left of the footer displays a copyright reminder as users will be viewing images of an artists work. This is to discourage unorthorised use of the images.
+  - The footer sits at the bottom of every page in a fixed position and provides social media links for ease of access as this is often a users prefered mode of following work and communicating with indivdual creatives or small buisneses. The social links chosen were Instagram and YouTube and were illustrated using icons from font-awesome. These social links are aligned center. At the wireframe stage the social icons were intended to be fixed to the right but this prooved to be visually less appealing.
+  - Underneath the social links is displayed a copyright reminder as users will be viewing images of an artists work. This is simply to discourage unorthorised use of the images. This is aligned center also for the same reasons as the social links.
+ 
+![Screenshot 2023-07-16 at 12-35-39 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/d6595b23-b71a-473f-bc5a-8bd7679b91e0)
 
-- ### Home Image/text
-
-  - The Home page contains a background image that gives user an idea of the artists work and fits thematically with the title and colour scheme of the site.
-  - Placed in front the image is a tagline that displays the artists name, work and country of origin to tell a visitor the subject and purpose of the site.
-
-![alt text]()
 
 - ### Gallery Section
 
