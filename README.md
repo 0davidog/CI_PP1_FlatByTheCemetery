@@ -63,12 +63,20 @@ The font choice for the site is the serif font Palatino as this resembles the te
   - Gallery section consists of a main menu page in which visitors can select from an option of 4 gallery collections, each their own page.
   - For extra ease of navigation users are given a second navigation bar under the initial nav-bar that provides text links to the main gallery page and the four collection pages.
   - The links are illustrated using specialy made thumbnail images that give a glimse of the artwork that will be inside each collection. Plain text giving the links a title  such as 'Collection 01' sits on top of the thumbnails.
+
 ![Screenshot 2023-07-16 at 12-59-06 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/25c3ed43-f50c-4743-ac54-376699a61bb5)
+
   - Each collection page follows the same format as the main gallery page with links to four different image pages being illustrated by specialy made thumbnails images hinting at the works content and plain text giving the links a description of 'image 01' etc.
+
 ![Screenshot 2023-07-16 at 13-00-04 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/ca2439b4-fcf3-4c9f-9ee2-4213b4c14b3c)
 
+ - The final piece of the gallery section is the pages for each individual image, 16 in total.
+ - I chose to do this as individual pagaes to give the user an opportunity to look closely at the work and in a decent size depending on the screen used.
+ - The pages consist of the image/artwork, followed by the works title and a short line of description on the origin, idea or intended use of the artwork/design.
 
-- About section
+![Screenshot 2023-07-16 at 13-23-14 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/ae1565c9-321b-4131-bd77-a94d1eede2a6)
+
+### About section
   - About section contains an paragraph which gives a more detailed overview of the artist and their work.
   - An image of the artist accompanys the text.
 
