@@ -77,7 +77,10 @@ The font choice for the site is the serif font Palatino as this resembles the te
 ![Screenshot 2023-07-16 at 13-23-14 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/ae1565c9-321b-4131-bd77-a94d1eede2a6)
 
 ### About section
-  - About section contains an paragraph which gives a more detailed overview of the artist and their work.
+  - About section contains a paragraph which gives an overview of the artist and their work as well as links to Instagram, Youtube and Linkedin.
+  - The section is also decorated with the same image use as the index background, used here as an aside to the text.
+
+![Screenshot 2023-07-16 at 16-39-44 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/6fe96578-26cb-49f0-8e03-c114306bbb8d)
 
 ### Contact Form
   - The 'Contact' page contains a form in which the user can get in touch with the artist.
