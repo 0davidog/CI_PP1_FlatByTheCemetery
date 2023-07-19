@@ -144,9 +144,6 @@ footer {
 .picture-frame picture{
 	width: 100%;
 }
-.picture-frame video{
-	width: 100%;
-}
 .gallery-text {
 	padding: 10px 5%;
 	text-align: left;
@@ -214,6 +211,12 @@ textarea {
 	flex-basis: 100%;
 }
 /* Media Queries Section */
+/* Styling and positioning edits for phone size ref. 'Galaxy 8+' 300x740 */
+@media screen and (min-width: 300px) {
+	.picture-frame video {
+		width: 290px;
+	}
+}
 /* Styling and positioning edits for phone size ref. 'iphone SE' 375x667 */
 @media screen and (min-width: 375px) {
 	nav {
@@ -242,6 +245,15 @@ textarea {
 	#contact-form-container {
 		margin-top: 110px;
 	}
+	.picture-frame video {
+		width: 340px;
+	}
+}
+/* Styling and positioning edits for tablet size ref. 'Surface Duo' 540x720 */
+@media screen and (min-width: 530px) {
+	.picture-frame video {
+		width: 500px;
+	}
 }
 /* Styling and positioning edits for tablet size ref. 'ipad mini' 768x1024 */
 @media screen and (min-width: 768px) {
@@ -260,6 +272,9 @@ textarea {
 		.thumbnail {
 		margin: 10px;
 }
+	.picture-frame video {
+		width: 700px;
+	}
 }
 /* Styling and positioning edits for tablet size ref. 'Nest Hub' 1024x600 */
 @media screen and (min-width: 1000px) and (min-height: 600px) {
@@ -293,6 +308,9 @@ textarea {
 	}
 	#contact-form-container {
 		margin-top: 110px;
+	}
+	.picture-frame video{
+		width: 1000px;
 	}
 }
 /*media query for flex grid */
