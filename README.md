@@ -98,6 +98,13 @@ The font choice for the site is the serif font Palatino as this resembles the te
 
 ## Testing
 
+ - Deployed website passed through official W3C Validator service for HTML [link](https://validator.w3.org/)
+ - [Attatched PDF displays screenshots for each page's test](https://github.com/0davidog/flatbythecemetery/files/12094965/html-validation.pdf)
+ - Deployed website passed through official W3C Validator service for CSS [link](https://jigsaw.w3.org/css-validator/)
+![Screenshot 2023-07-19 at 13-05-15 W3C CSS Validator results for https __0davidog github io_flatbythecemetery_index html (CSS level 3 SVG)](https://github.com/0davidog/flatbythecemetery/assets/135815736/0f50d83a-a8b3-4913-b344-2147a6bc48fa)
+ - [Full screenshot here](https://github.com/0davidog/flatbythecemetery/assets/135815736/a58a19ad-ac00-45f0-801a-b540fe8af8cc)
+
+
 ## Credits
 
 ### Font Awesome Icons
