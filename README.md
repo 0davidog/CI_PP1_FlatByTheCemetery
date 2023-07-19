@@ -142,6 +142,13 @@ For the sake of responsivity the site was frequently tested against various scre
 |Nest Hub Max|1280x800|
 |Windows laptop|1920x1080|
 
+### Link Tests
+
+I tested all the navigation links on the deployed site to check they perform as expected.
+
+- [x] All links lead to expected location
+- [x] All external links open in new window (this includes form result)
+- [x] All links accessable by tab key
 
 ### Validator Testing
 
