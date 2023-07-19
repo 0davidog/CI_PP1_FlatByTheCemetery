@@ -95,6 +95,9 @@ The font choice for the site is the serif font Palatino as this resembles the te
 
 ![Screenshot 2023-07-16 at 14-03-46 Returned form data](https://github.com/0davidog/flatbythecemetery/assets/135815736/a2c16409-d6f7-4ce8-b3a4-a4aaa845b4b1)
 
+## Future Features
+- A blog page/section would be a great fit for a site that follows the work of an artist/creative allowing for periodic updates of activity in greater detail than offered in social media posts.
+- A shop for selling prints of artwork or related goods would also be ideal.
 
 ## Testing
 
