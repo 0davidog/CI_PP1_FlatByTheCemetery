@@ -102,6 +102,14 @@ The font choice for the site is the serif font Palatino as this resembles the te
 
 ## Testing
 
+### Link Tests
+
+I tested all the navigation links on the deployed site to check they perform as expected.
+
+- [x] All links lead to expected location
+- [x] All external links open in new window (this includes form result)
+- [x] All links accessable by tab key
+
 ### Contact Form Test
 
 - Attempted to submit form without any input:
@@ -142,14 +150,6 @@ For the sake of responsivity the site was frequently tested against various scre
 |Nest Hub Max|1280x800|
 |Windows laptop|1920x1080|
 
-### Link Tests
-
-I tested all the navigation links on the deployed site to check they perform as expected.
-
-- [x] All links lead to expected location
-- [x] All external links open in new window (this includes form result)
-- [x] All links accessable by tab key
-
 ### Validator Testing
 
  - Deployed website passed through official W3C Validator service for HTML [link](https://validator.w3.org/)
@@ -157,6 +157,45 @@ I tested all the navigation links on the deployed site to check they perform as 
  - Deployed website passed through official W3C Validator service for CSS [link](https://jigsaw.w3.org/css-validator/)
 ![Screenshot 2023-07-19 at 13-05-15 W3C CSS Validator results for https __0davidog github io_flatbythecemetery_index html (CSS level 3 SVG)](https://github.com/0davidog/flatbythecemetery/assets/135815736/0f50d83a-a8b3-4913-b344-2147a6bc48fa)
  - [Full screenshot here](https://github.com/0davidog/flatbythecemetery/assets/135815736/a58a19ad-ac00-45f0-801a-b540fe8af8cc)
+
+### Lighthouse Testing
+
+Used Google Chromes 'Lighthouse' dev tool to assess the deployed site for Performance, Accessibility, Best Practices and Search Engine Optimisation. During development I periodly checked the lighthouse assessment and made the occational change as directed.
+
+This included:
+- Changing the red highlight colour to a brighter red to improve contrast with the background.
+- Switching to newer web formats (webp/webm) for images and video to improve performance.
+- Adding meta data of 'userscalable=yes' and 'maxscale=10' so users have more control over page zoom.
+- Making sure all images have an 'alt' attribute.
+
+The lighthouse results for the deployed site are as follows: 
+
+|Page|Performance|Accessibility|Best Practice|SEO|Screenshot|
+|----|-----------|-------------|-------------|---|----------|
+|index|99|100|100|100|[lighthouse-screen-01](https://github.com/0davidog/flatbythecemetery/assets/135815736/4e4313b2-a4eb-4669-ba84-1d5c4ecd6d1a)|
+|gallery|100|100|100|100|[lighthouse-screen-02](https://github.com/0davidog/flatbythecemetery/assets/135815736/e2f63ff3-aca3-45a0-90e0-890c50f0de25)|
+|collection01|99|100|100|100|[lighthouse-screen-03](https://github.com/0davidog/flatbythecemetery/assets/135815736/3efa4fbc-decf-4491-b0d8-9985c65b498d)|
+|collection02|100|100|100|100|[lighthouse-screen-04](https://github.com/0davidog/flatbythecemetery/assets/135815736/a92ece92-b89e-44da-a105-4a3d7f1c93e8)|
+|collection03|100|100|100|100|[lighthouse-screen-05](https://github.com/0davidog/flatbythecemetery/assets/135815736/3751fc21-382c-449f-898a-48f0ed206de3)|
+|collection04|100|100|100|100|[lighthouse-screen-06](https://github.com/0davidog/flatbythecemetery/assets/135815736/1e7d6b34-be10-4643-a611-cd42b27fa5ed)|
+|about|99|100|100|100|[lighthouse-screen-07](https://github.com/0davidog/flatbythecemetery/assets/135815736/3d277b88-be3e-419b-bb0f-780788124ad6)|
+|contact|100|100|100|100|[lighthouse-screen-08](https://github.com/0davidog/flatbythecemetery/assets/135815736/5c995b26-ea38-46b9-97a7-a3bed88a3c47)|
+|gallery-image-01|92|100|100|100|[lighthouse-screen-09](https://github.com/0davidog/flatbythecemetery/assets/135815736/922de014-8c6b-4755-9c15-10aee4266491)|
+|gallery-image-02|100|100|100|100|[lighthouse-screen-10](https://github.com/0davidog/flatbythecemetery/assets/135815736/e0f8d2c5-2c4a-4398-b65d-6b100439d7c9)|
+|gallery-image-03|92|100|100|100|[lighthouse-screen-11](https://github.com/0davidog/flatbythecemetery/assets/135815736/cec6a6c9-9a26-4ee8-9f22-ae307e8152c1)|
+|gallery-image-04|92|100|100|100|[lighthouse-screen-12](https://github.com/0davidog/flatbythecemetery/assets/135815736/b9a0a9fe-2642-4083-aac6-91127f0be204)|
+|gallery-image-05|100|100|100|100|[lighthouse-screen-13](https://github.com/0davidog/flatbythecemetery/assets/135815736/fb8cba0c-6bf3-4217-bc78-a364722948a1)|
+|gallery-image-06|100|100|100|100|[lighthouse-screen-14](https://github.com/0davidog/flatbythecemetery/assets/135815736/1ff0d243-ebc0-4e4a-91bf-f15e8af1281f)|
+|gallery-image-07|100|100|100|100|[lighthouse-screen-15](https://github.com/0davidog/flatbythecemetery/assets/135815736/77f23b9d-10c8-470e-8fc8-8a29f5468264)|
+|gallery-image-08|98|100|100|100|[lighthouse-screen-16](https://github.com/0davidog/flatbythecemetery/assets/135815736/5a87c9b5-3ab5-4a6c-be1f-a347a876a276)|
+|gallery-image-09|100|100|100|100|[lighthouse-screen-17](https://github.com/0davidog/flatbythecemetery/assets/135815736/55c328ea-eb4c-4ebd-a414-38b29bf837b2)|
+|gallery-image-10|100|100|100|100|[lighthouse-screen-18](https://github.com/0davidog/flatbythecemetery/assets/135815736/f3656aa8-3067-4e3e-a296-87f08a8a7683)|
+|gallery-image-11|100|100|100|100|[lighthouse-screen-19](https://github.com/0davidog/flatbythecemetery/assets/135815736/2e0ab728-8173-4492-9d1e-fd9557a53f3d)|
+|gallery-image-12|99|100|100|100|[lighthouse-screen-20](https://github.com/0davidog/flatbythecemetery/assets/135815736/985874e5-9f72-48f5-adb2-6ab1a1c32fa9)|
+|gallery-image-13|94|100|100|100|[lighthouse-screen-21](https://github.com/0davidog/flatbythecemetery/assets/135815736/b25e31bd-2fa1-4f7f-9a90-2f32c5daea70)|
+|gallery-image-14|91|100|100|100|[lighthouse-screen-22](https://github.com/0davidog/flatbythecemetery/assets/135815736/45ddab7c-2639-445f-9bf7-edff6819161e)|
+|gallery-image-15|100|100|100|100|[lighthouse-screen-23](https://github.com/0davidog/flatbythecemetery/assets/135815736/a75ab231-73e0-4490-9f1a-f3442d0919fe)|
+|gallery-image-16|100|100|100|90|[lighthouse-screen-24](https://github.com/0davidog/flatbythecemetery/assets/135815736/6836de7c-6c6f-4fb4-a517-8e095413ccd7)|
 
 ## Credits
 
@@ -213,8 +252,10 @@ I tested all the navigation links on the deployed site to check they perform as 
 }
 ```
 
-### Content
-
 ### Media
 
-All images used are the author's own work.
+All images and video used are the author's own work.
+
+### Author
+
+David C. O'Gara 2023
