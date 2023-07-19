@@ -104,14 +104,19 @@ The font choice for the site is the serif font Palatino as this resembles the te
 ### Contact Form Test
 
 - Attempted to submit form without any input:
+  
  ![contact-screen-01](https://github.com/0davidog/flatbythecemetery/assets/135815736/544b57e7-f4da-401c-85b1-7646bfbaadea)
 - Attempted to submit form without valid email input:
+  
 ![contact-screen-02](https://github.com/0davidog/flatbythecemetery/assets/135815736/68a1dc60-8303-42f4-a1ff-56ad6fac4fc8)
 - Attempted to submit form without message text field input:
+  
 ![contact-screen-03](https://github.com/0davidog/flatbythecemetery/assets/135815736/e1cd9792-2b34-4ff5-9d07-8ed67e7c0fe2)
 - Submitted form with all valid inputs:
+  
 ![contact-screen-04](https://github.com/0davidog/flatbythecemetery/assets/135815736/48fd5d6a-a253-433e-b04b-c7d8c2d1c57b)
 - Result returned:
+  
 ![contact-screen-05](https://github.com/0davidog/flatbythecemetery/assets/135815736/97f25982-eaed-4b4f-8b11-9797bfc1a36d)
 
 ### Validator Testing
@@ -131,6 +136,51 @@ The font choice for the site is the serif font Palatino as this resembles the te
  - [Youtube Icon](https://fontawesome.com/icons/youtube?f=brands&s=solid)
  - [Linkedin Icon](https://fontawesome.com/icons/linkedin?f=brands&s=solid)
 
+### Flex Grid Tutorial
+
+- Used a tutorial to create a flex-grid that allows content to be arranged in a grid in a responsive manner.
+- [link to tutorial](https://www.taniarascia.com/easiest-flex-grid-ever/)
+- My css code:
+  
+```
+  /* setting a flex grid for about section */
+/* learning from https://www.taniarascia.com/easiest-flex-grid-ever/ */
+#about-section {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#portrait {
+	text-align: center;
+	flex-basis: 100%;
+	padding-top: 50px;
+	color: #888888;
+}
+#portrait img {
+	width: 80%;
+	padding-bottom: 10px;
+}
+#about-text {
+	line-height: 200%;
+	padding: 50px;
+	flex-basis: 100%;
+}
+ ```
+
+ ```
+/*media query for flex grid */
+/* learning from https://www.taniarascia.com/easiest-flex-grid-ever/ */	
+@media screen and (min-width: 1500px) {
+	#portrait {
+    flex: 3.5;
+  }
+	#about-text {
+    flex: 6.5;
+  }
+}
+```
 
 ### Content
 
