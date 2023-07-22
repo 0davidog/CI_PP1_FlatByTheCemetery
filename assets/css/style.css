@@ -214,9 +214,6 @@ textarea {
 /* Media Queries Section */
 /* Styling and positioning edits for phone size ref. 'Galaxy 8+' 300x740 */
 @media screen and (min-width: 300px) {
-	body {
-		font-size: 110%;
-	}
 	.picture-frame video {
 		width: 290px;
 		height: 163px;
@@ -224,6 +221,9 @@ textarea {
 }
 /* Styling and positioning edits for phone size ref. 'iphone SE' 375x667 */
 @media screen and (min-width: 375px) {
+		body {
+		font-size: 110%;
+	}
 	nav {
 		line-height: 100%;
 	}
