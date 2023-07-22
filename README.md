@@ -159,7 +159,7 @@ To make sure that the site looked good and responded properly across multiple di
 |Dell Laptop|Windows 10|1920x1080|Firefox, Chrome, Edge|N/A|
 |iPhone Xs|ios16.5.1|375x812|Firefox, Safari, Chrome, Edge|N/A|
 |iPhone 14|ios16.5|390x664|Safari|[bs-screen-01](https://github.com/0davidog/flatbythecemetery/assets/135815736/b78e03c1-8efe-4510-b181-147710d919d3)|
-|Galaxy S23|An13.0|393x786|Chrome|[bs-screen-02](https://github.com/0davidog/flatbythecemetery/assets/135815736/e02cb053-b135-4ee0-9396-623033bfec59)|
+|Galaxy S23|An13.0|393x786|Chrome|[bs-screen-02](https://github.com/0davidog/flatbythecemetery/assets/135815736/d1dcea02-38fd-4c9b-acea-b6a749bdc18d)|
 |Redmi Note|And12.0|390x873|Chrome|[bs-screen-03](https://github.com/0davidog/flatbythecemetery/assets/135815736/e88924d7-40e1-4806-bfef-56021609e017)|
 |Pixel 6 Pro|An13.0|412x778|Edge|[bs-screen-04](https://github.com/0davidog/flatbythecemetery/assets/135815736/9c1ebb1a-c434-4004-9824-d0e91206f7a4)|
 |iPad 10th|ios16.0|393x786|Safari|[bs-screen-05](https://github.com/0davidog/flatbythecemetery/assets/135815736/2bbba2d4-4009-492e-95c1-141d1da9115a)|
