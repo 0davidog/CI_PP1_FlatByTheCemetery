@@ -139,7 +139,7 @@ footer {
 }
 .picture-frame {
 	display: inline-block;
-	margin-top: 300px;
+	margin-top: 150px;
 	width: 90%;
 }
 .picture-frame img{
@@ -261,6 +261,9 @@ textarea {
 		margin-top: 180px;
 	}
 	.thumbnail-wrap {
+		margin-top: 300px;
+	}
+	.picture-frame {
 		margin-top: 300px;
 	}
 }
