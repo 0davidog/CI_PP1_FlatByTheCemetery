@@ -221,12 +221,6 @@ textarea {
 		width: 290px;
 		height: 163px;
 	}
-	#contact-form-container {
-		margin-top: 180px;
-	}
-	.thumbnail-wrap {
-		margin-top: 300px;
-	}
 }
 /* Styling and positioning edits for phone size ref. 'iphone SE' 375x667 */
 @media screen and (min-width: 375px) {
@@ -262,6 +256,12 @@ textarea {
 	.picture-frame video {
 		width: 340px;
 		height: 191;
+	}
+	#contact-form-container {
+		margin-top: 180px;
+	}
+	.thumbnail-wrap {
+		margin-top: 300px;
 	}
 }
 /* Styling and positioning edits for tablet size ref. 'Surface Duo' 540x720 */
