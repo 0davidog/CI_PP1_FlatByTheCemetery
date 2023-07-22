@@ -219,6 +219,7 @@ textarea {
 	}
 	.picture-frame video {
 		width: 290px;
+		height: 163px;
 	}
 	#contact-form-container {
 		margin-top: 180px;
@@ -260,12 +261,14 @@ textarea {
 	}
 	.picture-frame video {
 		width: 340px;
+		height: 191;
 	}
 }
 /* Styling and positioning edits for tablet size ref. 'Surface Duo' 540x720 */
 @media screen and (min-width: 530px) {
 	.picture-frame video {
 		width: 500px;
+		height: 281px;
 	}
 }
 /* Styling and positioning edits for tablet size ref. 'ipad mini' 768x1024 */
@@ -287,6 +290,7 @@ textarea {
 }
 	.picture-frame video {
 		width: 700px;
+		height: 394px;
 	}
 }
 /* Styling and positioning edits for tablet size ref. 'Nest Hub' 1024x600 */
@@ -324,6 +328,7 @@ textarea {
 	}
 	.picture-frame video{
 		width: 1000px;
+		height: 563px;
 	}
 }
 /*media query for flex grid */
