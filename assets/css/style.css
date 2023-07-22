@@ -10,7 +10,7 @@ body {
 	background-color: #000000;
 	color: #ffffff;
 	font-family: Palatino, Georgia, serif;
-	font-size: 110%;
+	font-size: 75%;
 }
 a {
 	text-decoration: none;
@@ -46,6 +46,7 @@ nav {
 }
 /* Styling for additional navigation bar in gallery pages */
 #gallery-nav-bar {
+	display: none;
 	color: #888888;
 	word-spacing: 7px;
 	padding-bottom: 10px;
@@ -96,7 +97,7 @@ footer {
 }
 /* Styling and positioning Gallery thumnail grid */
 .thumbnail-wrap {
-	margin-top: 300px;
+	margin-top: 200px;
 	margin-bottom: 0;
 	height: 100vh;
 	text-align: center;
@@ -153,7 +154,7 @@ footer {
 /* Styling and positioning the contact form elements */
 #contact-form-container {
 	width: 100vw;
-	margin-top: 180px;
+	margin-top: 110px;
 	margin-bottom: 90px;
 	text-align: center;
 	line-height: 180%;
@@ -213,8 +214,17 @@ textarea {
 /* Media Queries Section */
 /* Styling and positioning edits for phone size ref. 'Galaxy 8+' 300x740 */
 @media screen and (min-width: 300px) {
+	body {
+		font-size: 110%;
+	}
 	.picture-frame video {
 		width: 290px;
+	}
+	#contact-form-container {
+		margin-top: 180px;
+	}
+	.thumbnail-wrap {
+		margin-top: 300px;
 	}
 }
 /* Styling and positioning edits for phone size ref. 'iphone SE' 375x667 */
@@ -230,6 +240,9 @@ textarea {
 	}
 	#gallery-nav-bar br {
 		display: none;
+	}
+	#gallery-nav-bar {
+		display: contents;
 	}
 	.thumbnail-wrap {
 		margin-top: 200px;
