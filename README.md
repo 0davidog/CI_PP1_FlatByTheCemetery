@@ -150,13 +150,33 @@ For the sake of responsivity the site was frequently tested against various scre
 |Nest Hub Max|1280x800|
 |Windows laptop|1920x1080|
 
+### Browser and OS testing
+
+To make sure that the site looked good and responded properly across multiple different devices, browsers and operating systems I used the site [Browserstack](https://www.browserstack.com/) to live test multiple devices I wouldn't otherwise have access to. Here's a list of combinations that I confirmed the site looked and function properly on. Included is my own personal devices used to create the project.
+
+|Device|OS|Viewport|Browser|Browserstack Screenshot|
+|-|-|-|-|-|
+|Dell Laptop|Windows 10|1920x1080|Firefox, Chrome, Edge|N/A|
+|iPhone Xs|ios16.5.1|375x812|Firefox, Safari, Chrome, Edge|N/A|
+|iPhone 14|ios16.5|390x664|Safari|[bs-screen-01](https://github.com/0davidog/flatbythecemetery/assets/135815736/b78e03c1-8efe-4510-b181-147710d919d3)|
+|Galaxy S23|An13.0|393x786|Chrome|[bs-screen-02](https://github.com/0davidog/flatbythecemetery/assets/135815736/e02cb053-b135-4ee0-9396-623033bfec59)|
+|Redmi Note|And12.0|390x873|Chrome|[bs-screen-03](https://github.com/0davidog/flatbythecemetery/assets/135815736/e88924d7-40e1-4806-bfef-56021609e017)|
+|Pixel 6 Pro|An13.0|412x778|Edge|[bs-screen-04](https://github.com/0davidog/flatbythecemetery/assets/135815736/9c1ebb1a-c434-4004-9824-d0e91206f7a4)|
+|iPad 10th|ios16.0|393x786|Safari|[bs-screen-05](https://github.com/0davidog/flatbythecemetery/assets/135815736/2bbba2d4-4009-492e-95c1-141d1da9115a)|
+|Moto g71|An11.0|412x797|Chrome|[bs-screen-06](https://github.com/0davidog/flatbythecemetery/assets/135815736/79938274-1a15-43c7-ac08-44d6bce458da)|
+|P30|An9.0|360x657|Chrome|[bs-screen-07](https://github.com/0davidog/flatbythecemetery/assets/135815736/6e91ec64-e505-4397-b900-a696213efd1b)|
+|Mac|macOS Ventura|1920x927|Safari16.3|[bs-screen-08](https://github.com/0davidog/flatbythecemetery/assets/135815736/afb98a44-9c5b-49a0-8ed9-469d12953a6e)| 
+
 ### Validator Testing
 
  - Deployed website passed through official W3C Validator service for HTML [link](https://validator.w3.org/)
  - [Attatched PDF displays screenshots for each page's test](https://github.com/0davidog/flatbythecemetery/files/12094965/html-validation.pdf)
  - Deployed website passed through official W3C Validator service for CSS [link](https://jigsaw.w3.org/css-validator/)
-![Screenshot 2023-07-19 at 13-05-15 W3C CSS Validator results for https __0davidog github io_flatbythecemetery_index html (CSS level 3 SVG)](https://github.com/0davidog/flatbythecemetery/assets/135815736/0f50d83a-a8b3-4913-b344-2147a6bc48fa)
- - [Full screenshot here](https://github.com/0davidog/flatbythecemetery/assets/135815736/a58a19ad-ac00-45f0-801a-b540fe8af8cc)
+   
+![Screenshot 2023-07-22 at 13-25-42 W3C CSS Validator results for https __0davidog github io_flatbythecemetery_index html (CSS level 3 SVG)](https://github.com/0davidog/flatbythecemetery/assets/135815736/b4b24d1b-f42a-489c-bb9c-296b0c9d7bae)
+
+- [Full CSS validation screenshot here](https://github.com/0davidog/flatbythecemetery/assets/135815736/f610aec0-f607-44a9-bb69-fa0e18a82fe0)
+
 
 ### Lighthouse Testing
 
@@ -199,14 +219,16 @@ The lighthouse results for the deployed site are as follows:
 
 ## Credits
 
-### Font Awesome Icons
+### Content
+
+#### Font Awesome Icons
 
  - The Icons for Instagram and Youtube were sourced from the [Font Awesome website](https://fontawesome.com/).
  - [Instagram Icon](https://fontawesome.com/icons/instagram?f=brands&s=solid)
  - [Youtube Icon](https://fontawesome.com/icons/youtube?f=brands&s=solid)
  - [Linkedin Icon](https://fontawesome.com/icons/linkedin?f=brands&s=solid)
 
-### Flex Grid Tutorial
+#### Flex Grid Tutorial
 
 - Used a tutorial to create a flex-grid that allows content to be arranged in a grid in a responsive manner.
 - [link to tutorial](https://www.taniarascia.com/easiest-flex-grid-ever/)
@@ -252,10 +274,10 @@ The lighthouse results for the deployed site are as follows:
 }
 ```
 
-### Media
+#### Media
 
 All images and video used are the author's own work.
 
-### Author
+#### Author
 
 David C. O'Gara 2023
