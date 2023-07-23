@@ -4,7 +4,7 @@ _Author: David O'Gara_
 
 Flat by the Cemetery is an interactive Front-End web application using HTML and CSS to present a portfolio website that showcases the visual work of an artist/illustrator.
 
-Users of the site will be able to find information on the artist, see examples of their work, and get in touch via a contact form or social media links. The target audience of the website are people, like-minded to the author and potential clients or collaborators that may wish to learn more about the work or follow any future developments.
+Users of the site will be able to find information on the artist, see examples of their work, and get in touch via a contact form or social media links. The target audience of the website are people, like-minded to the author and potential clients or collaborators that may wish to learn more about the work or follow any future developments. The project goal for the site owner is to drive engagement and interest with the artist's work by providing a visual demonstration/overview of the work.
 
 ![am-i-responsive-image](https://github.com/0davidog/flatbythecemetery/assets/135815736/4541a755-539d-4e64-8409-3ba444810770)
 
