@@ -97,16 +97,16 @@ footer {
 }
 /* Styling and positioning Gallery thumnail grid */
 .thumbnail-wrap {
-	margin-top: 200px;
+	margin-top: 110px;
 	margin-bottom: 0;
-	height: 100vh;
+	height: 50vh;
 	text-align: center;
 	position:relative;
 }
 .thumbnail {
 	display: inline-block;
 	position:relative;
-	width: 300px;
+	width: 260px;
 	height: 50px;
 	background-color: #888888;
 	line-height: 200px;
@@ -190,7 +190,7 @@ textarea {
 /* setting a flex grid for about section */
 /* learning from https://www.taniarascia.com/easiest-flex-grid-ever/ */
 #about-section {
-	margin-top: 100px;
+	margin-top: 110px;
 	margin-bottom: 100px;
 	display: flex;
 	flex-direction: row;
@@ -208,7 +208,7 @@ textarea {
 }
 #about-text {
 	line-height: 200%;
-	padding: 50px;
+	padding: 0px 20px 50px 20px;
 	flex-basis: 100%;
 }
 /* Media Queries Section */
@@ -257,14 +257,14 @@ textarea {
 		width: 340px;
 		height: 191px;
 	}
-	#contact-form-container {
-		margin-top: 180px;
-	}
 	.thumbnail-wrap {
 		margin-top: 150px;
 	}
 	.picture-frame {
 		margin-top: 150px;
+	}
+	#about-section {
+		margin-top: 110px;
 	}
 }
 /* Styling and positioning edits for tablet size ref. 'Surface Duo' 540x720 */
@@ -294,6 +294,9 @@ textarea {
 	.picture-frame video {
 		width: 700px;
 		height: 394px;
+	}
+	.thumbnail-wrap {
+		margin-top: 130px;
 	}
 }
 /* Styling and positioning edits for tablet size ref. 'Nest Hub' 1024x600 */
