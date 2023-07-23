@@ -8,6 +8,32 @@ Visitors to the site will be able to find information on the artist, see example
 
 ![am-i-responsive-image](https://github.com/0davidog/flatbythecemetery/assets/135815736/4541a755-539d-4e64-8409-3ba444810770)
 
+## Contents
+
+  - [Deployed Website](#deployed-website)
+  - [Repository](#repository)
+  - [Wireframes](#wireframes)
+  - [Features](#features)
+    + [Main Image](#main-image)
+    + [About the title and colour scheme](#about-the-title-and-colour-scheme)
+    + [About the font choice](#about-the-font-choice)
+    + [Navigation Bar](#navigation-bar)
+    + [Footer](#footer)
+    + [Gallery Section](#gallery-section)
+    + [About section](#about-section)
+    + [Contact Form](#contact-form)
+  - [Future Features](#future-features)
+  - [Testing](#testing)
+    + [Link Tests](#link-tests)
+    + [Contact Form Test](#contact-form-test)
+    + [Initial Screen Size Tests](#initial-screen-size-tests)
+    + [Defects](#defects)
+    + [Browser and OS testing](#browser-and-os-testing)
+    + [Market Research](#market-research)
+    + [Validator Testing](#validator-testing)
+    + [Lighthouse Testing](#lighthouse-testing)
+  - [Credits](#credits)
+
 ## Deployed Website
 
 [Flat by the Cemetery](https://0davidog.github.io/flatbythecemetery/index.html) via Github Pages.
@@ -300,3 +326,7 @@ All images and video used are the author's own work.
 #### Author
 
 David C. O'Gara 2023
+
+### Other
+
+[Table of contents generated with markdown-toc](http://ecotrust-canada.github.io/markdown-toc/')
