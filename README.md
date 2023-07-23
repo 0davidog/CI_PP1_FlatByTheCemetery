@@ -2,9 +2,9 @@
 
 _Author: David O'Gara_
 
-Flat by the Cemetery is a portfolio website that showcases the visual work of an artist/illustrator.
+Flat by the Cemetery is an interactive Front-End web application using HTML and CSS to present a portfolio website that showcases the visual work of an artist/illustrator.
 
-Visitors to the site will be able to find information on the artist, see examples of their work, and get in touch via a contact form or social media links. The site is targeted at those that may wish to learn more about the work or follow any developments as well as potential clients and collaborators.
+Users of the site will be able to find information on the artist, see examples of their work, and get in touch via a contact form or social media links. The target audience of the website are people, like-minded to the author and potential clients or collaborators that may wish to learn more about the work or follow any future developments.
 
 ![am-i-responsive-image](https://github.com/0davidog/flatbythecemetery/assets/135815736/4541a755-539d-4e64-8409-3ba444810770)
 
@@ -74,23 +74,27 @@ As this is the only content that is featured exclusively on the landing/index pa
 The font choice for the site is the serif font Palatino as this resembles the text of a paperback novel and fits within the sites themes of horror-fiction. 
  
 ### Navigation Bar
+
   - The navigation bar sits below the sites h1 title in the header and displays in text the links for 'Home, Gallery, About and Contact'. Active and highlighted (hovered over) links will be displayed in red with the hovered-over links underlined while standard links are the sites default white with no extra adornment.
   - The order of the links reflect the visual nature of the site, users are encouraged to explore further after their encounter with the 'Home' page and presumably intend to check out more of the work directly at the 'Gallery'. Then if interested in the work the 'About' page offers a place they can visit next to learn a little more about the artist. Finally in the interest of further interaction the user can submit a message to the artist directly using the 'Contact' page.
+  - The h1 title at the top of the page also acts as a link to the home page as I feel from a user perspective I expect website titles and headers to act in this way, always providing a clear return to the beginning if sense of navigation is lost.
 
 ![Screenshot 2023-07-16 at 11-52-54 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/fb7ec8ff-41f2-41e3-9f5b-0102f624211c)
 
 ### Footer
 
-  - The footer sits at the bottom of every page in a fixed position and provides social media links for ease of access as this is often a user preferred mode of following work and communicating with individual creatives or small businesses. The social links chosen were Instagram and YouTube and were illustrated using icons from font-awesome. These social links are aligned center. At the wireframe stage the social icons were intended to be fixed to the right but this proved to be visually less appealing.
+  - The footer sits at the bottom of every page in a fixed position and provides social media links for ease of access as this is often a user preferred mode of following work and communicating with individual creatives or small businesses and from a site-owner perspective this should drive engagement with social media accounts.
+  - The social links chosen were Instagram and YouTube and were illustrated using icons from font-awesome. These social links are aligned center. At the wireframe stage the social icons were intended to be fixed to the right but this proved to be visually less appealing.
   - Underneath the social links is displayed a copyright reminder as users will be viewing images of an artists work. This is simply to discourage unorthorised use of the images. This is aligned center also for the same reasons as the social links.
  
 ![Screenshot 2023-07-16 at 12-35-39 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/d6595b23-b71a-473f-bc5a-8bd7679b91e0)
 
 ### Gallery Section
 
-  - Gallery section consists of a main menu page in which visitors can select from an option of 4 gallery collections, each on their own page.
-  - For extra ease of navigation users are given a second navigation bar under the initial nav-bar that provides text links to the main gallery page and the four collection pages.
-  - The links are illustrated using specially made thumbnail images that give a glimse of the artwork that will be inside each collection. Plain text giving the links a title  such as 'Collection 01' sits on top of the thumbnails.
+  - Gallery section consists of a main menu page in which users can select from an option of 4 gallery collections, each on their own page.
+  - For extra ease of navigation users are given a second navigation bar under the initial nav-bar that provides text links to the main gallery page and the four collection pages [(This was later removed for smaller device screens)](#bugs).
+  - The links are illustrated using specially made thumbnail images that give a glimse of the artwork that will be inside each collection. Plain text giving the links a title such as 'Collection 01' sits on top of the thumbnails.
+  - This combination of both thumbnail images with text overlaid is to remove any ambiguity from a user perspective on where links will lead.
 
 ![Screenshot 2023-07-16 at 12-59-06 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/25c3ed43-f50c-4743-ac54-376699a61bb5)
 
@@ -101,12 +105,14 @@ The font choice for the site is the serif font Palatino as this resembles the te
  - The final piece of the gallery section is the pages for each individual image, 16 in total.
  - I chose to do this as individual pages to give the user an opportunity to look closely at the work and in a decent size depending on the screen used.
  - The pages consist of the image/artwork, followed by the works title and a short line of description on the origin, idea or intended use of the artwork/design.
+ - Two of the pieces were later changed to videos to display another aspect of the author's work. The videos play on a loop automatically and allow a user to interact with the choice of turning the audio on/off due to videos playing with audio automically being considered bad practice.
 
 ![Screenshot 2023-07-16 at 13-23-14 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/ae1565c9-321b-4131-bd77-a94d1eede2a6)
 
 ### About section
   - About section contains a paragraph which gives an overview of the artist and their work as well as links to Instagram, Youtube and Linkedin.
   - The section is also decorated with the same image use as the index background, used here as an aside to the text.
+  - This page is intended to give the audience an introduction to the author and suggest ways in which they can interect or connect in addition to the on-site contact form.
 
 ![Screenshot 2023-07-16 at 16-39-44 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/6fe96578-26cb-49f0-8e03-c114306bbb8d)
 
@@ -119,12 +125,13 @@ The font choice for the site is the serif font Palatino as this resembles the te
 ![Screenshot 2023-07-16 at 12-35-54 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/98afaa42-9388-4310-94da-76e09bcdabc1)
 
   - Upon completing the form and hitting submit, the form (for the time being) will make use of CodeInstitutes form dump link given in the lessons leading up to the first project. This will open a link in a new window confirming the form was successful.
-  - In the future the form should send the data given to the site's author via email message. 
+  - In the future the form should send the data given to the site's author via email message (this, however is currently out of the scope of this project and course learning stage). 
 
 ![Screenshot 2023-07-16 at 14-03-46 Returned form data](https://github.com/0davidog/flatbythecemetery/assets/135815736/a2c16409-d6f7-4ce8-b3a4-a4aaa845b4b1)
 
 ## Future Features
 
+- A fix of the contact form to allow for fully functional email capabilities.
 - A blog page/section would be a great fit for a site that follows the work of an artist/creative allowing for periodic updates of activity in greater detail than offered in social media posts.
 - A shop for selling prints of artwork or related goods would also be ideal.
 
@@ -366,7 +373,7 @@ All images and video used are the author's own work.
 
 - Much of the learning and code framwork is taken from the html and css essentials and Love-Running modules.
 
-## Mentor
+#### Mentor
 
 Malia Havlicek
 
