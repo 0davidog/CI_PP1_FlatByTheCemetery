@@ -287,14 +287,30 @@ The website is deployed on [Github](https://github.com/) using GithubPages. This
 
 ## Credits
 
+### Languages Used
+- HTML
+- CSS
+  
+### Tools Used
+
+- Adobe Dreamweaver
+- Adobe Photoshop (for images and wire-frames)
+- Adobe Premiere Pro (for videos in gallery)
+- [Git](https://git-scm.com/)
+- [Github](https://github.com/)
+
 ### Content
 
 #### Font Awesome Icons
 
- - The Icons for Instagram and Youtube were sourced from the [Font Awesome website](https://fontawesome.com/).
- - [Instagram Icon](https://fontawesome.com/icons/instagram?f=brands&s=solid)
- - [Youtube Icon](https://fontawesome.com/icons/youtube?f=brands&s=solid)
- - [Linkedin Icon](https://fontawesome.com/icons/linkedin?f=brands&s=solid)
+- The Icons for Instagram and Youtube were sourced from the [Font Awesome website](https://fontawesome.com/).
+  - [Instagram Icon](https://fontawesome.com/icons/instagram?f=brands&s=solid)
+  - [Youtube Icon](https://fontawesome.com/icons/youtube?f=brands&s=solid)
+  - [Linkedin Icon](https://fontawesome.com/icons/linkedin?f=brands&s=solid)
+
+- [Multi Device Image in README generated with 'Am I Responsive?'](https://ui.dev/amiresponsive)
+- [Table of contents in README generated with markdown-toc](http://ecotrust-canada.github.io/markdown-toc/')
+- [Colour palate image in README generated with coolors.co](https://coolors.co/)
 
 #### Flex Grid Tutorial
 
@@ -348,10 +364,12 @@ All images and video used are the author's own work.
 
 #### Acknowledgements
 
+- Much of the learning and code framwork is taken from the html and css essentials and Love-Running modules.
+
+## Mentor
+
+Malia Havlicek
+
 #### Author
 
 David C. O'Gara 2023
-
-### Other
-
-[Table of contents generated with markdown-toc](http://ecotrust-canada.github.io/markdown-toc/')
