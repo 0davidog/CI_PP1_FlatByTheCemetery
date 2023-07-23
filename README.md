@@ -175,8 +175,7 @@ To make sure that the site looked good and responded properly across multiple di
    
 ![Screenshot 2023-07-22 at 13-25-42 W3C CSS Validator results for https __0davidog github io_flatbythecemetery_index html (CSS level 3 SVG)](https://github.com/0davidog/flatbythecemetery/assets/135815736/b4b24d1b-f42a-489c-bb9c-296b0c9d7bae)
 
-- [Full CSS validation screenshot here](https://github.com/0davidog/flatbythecemetery/assets/135815736/f610aec0-f607-44a9-bb69-fa0e18a82fe0)
-
+- [CSS full screenshot here](https://github.com/0davidog/flatbythecemetery/assets/135815736/01625ff2-fd79-4109-b755-b5147cac780d)
 
 ### Lighthouse Testing
 
