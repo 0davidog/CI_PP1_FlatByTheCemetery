@@ -32,6 +32,7 @@ Visitors to the site will be able to find information on the artist, see example
     + [Market Research](#market-research)
     + [Validator Testing](#validator-testing)
     + [Lighthouse Testing](#lighthouse-testing)
+  - [Deployment](#deployment)
   - [Credits](#credits)
 
 ## Deployed Website
@@ -261,6 +262,11 @@ The lighthouse results for the deployed site are as follows:
 |gallery-image-14|91|100|100|100|[lighthouse-screen-22](https://github.com/0davidog/flatbythecemetery/assets/135815736/45ddab7c-2639-445f-9bf7-edff6819161e)|
 |gallery-image-15|100|100|100|100|[lighthouse-screen-23](https://github.com/0davidog/flatbythecemetery/assets/135815736/a75ab231-73e0-4490-9f1a-f3442d0919fe)|
 |gallery-image-16|100|100|100|90|[lighthouse-screen-24](https://github.com/0davidog/flatbythecemetery/assets/135815736/6836de7c-6c6f-4fb4-a517-8e095413ccd7)|
+
+## Deployment
+
+The website is deployed on [Github](https://github.com/) using GithubPages. This is done by accessing the github repository, navigate to settings, and selecting master branch from the source menu.
+- [LINK](https://0davidog.github.io/flatbythecemetery/index.html)
 
 ## Credits
 
