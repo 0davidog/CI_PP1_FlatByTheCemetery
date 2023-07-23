@@ -52,7 +52,7 @@ Here is a PDF of the wireframes put together at the sites inception. Adobe photo
 
 ### Main Image
 - The first thing a user will take notice of is the large background image that dominates the index page. This will immediately give the user an idea what the site is about and sets the tone stylistically for the content within.
-- A short line of description 'Art and illustration by David C. O’Gara. Based in Derbyshire, UK" is in front of the image in varying positions dependent of screen size. This wil let the user know the subject of the site if they weren't already aware. The container has a black background at half transparency to aid in readability and contrast against the page's background image.
+- A short line of description 'Art and illustration by David C. O’Gara. Based in Derbyshire, UK" is in front of the image in varying positions dependent of screen size. This will let the user know the subject of the site if they weren't already aware. The container has a black background at half transparency to aid in readability and contrast against the page's background image.
 
 As this is the only content that is featured exclusively on the landing/index page the user should have their attention drawn to the header, displaying the sites title and its navigation menu.
 
@@ -89,7 +89,7 @@ The font choice for the site is the serif font Palatino as this resembles the te
 
   - Gallery section consists of a main menu page in which visitors can select from an option of 4 gallery collections, each on their own page.
   - For extra ease of navigation users are given a second navigation bar under the initial nav-bar that provides text links to the main gallery page and the four collection pages.
-  - The links are illustrated using specialy made thumbnail images that give a glimse of the artwork that will be inside each collection. Plain text giving the links a title  such as 'Collection 01' sits on top of the thumbnails.
+  - The links are illustrated using specially made thumbnail images that give a glimse of the artwork that will be inside each collection. Plain text giving the links a title  such as 'Collection 01' sits on top of the thumbnails.
 
 ![Screenshot 2023-07-16 at 12-59-06 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/25c3ed43-f50c-4743-ac54-376699a61bb5)
 
@@ -135,7 +135,7 @@ I tested all the navigation links on the deployed site to check they perform as 
 
 - [x] All links lead to expected location
 - [x] All external links open in new window (this includes form result)
-- [x] All links accessable by tab key
+- [x] All links accessible by tab key
 
 ### Contact Form Test
 
@@ -157,7 +157,7 @@ I tested all the navigation links on the deployed site to check they perform as 
 
 ### Initial Screen Size Tests
 
-For the sake of responsivity the site was frequently tested against various screen sizes for appearance and to guide media query values. The sizes used at this stage are the default device sizes offered as part of Google Chrome's Dev Tools as well as the browser size provided by the Windows Laptop I use.  This provided great variety for responsive testing so I ensured the site looked acceptable on each of these dimensions.
+For the sake of responsivity the site was frequently tested against various screen sizes for appearance and to guide media query values. The sizes used at this stage are the default device sizes offered as part of Google Chrome's Dev Tools as well as the browser size provided by the Windows Laptop I use.  This provided great variety for responsive testing, so I ensured the site looked acceptable on each of these dimensions.
 
 |Device   |Dimensions|
 |---------|----------|
@@ -182,8 +182,8 @@ For the sake of responsivity the site was frequently tested against various scre
 In testing the site over time there were many challenges that presented themselves, especially when testing across devices and viewport sizes. These provided opportunities to tweak various aspects of the code to ensure the site looks appropriate across platforms.
 
 This included;
-- The second navigation bar introduced in the gallery pages, while allowing for an even clearer version of the links otherwise presented as images, prooved to take up valuable viewport space needed on small devices such as the Galaxy Fold, Galaxy S8+ or Huawei P30. The decision was made to remove the secondary nav-bar from display on screens of this size (below 375px width) and free up that space for page content.
-- The two videos displayed in the gallery had been encoded with an anamorphic setting. This didn't appear to be an issue as the videos displayed in the intended aspect ratio on all the emulated viewports in Chrome's Dev Tools. However, upom testing with the Mac os via browserstack the videos appeared squashed into a square aspect ratio. The solution taken was simply to republish the videos with a fixed 16.9 aspect.
+- The second navigation bar introduced in the gallery pages, while allowing for an even clearer version of the links otherwise presented as images, proved to take up valuable viewport space needed on small devices such as the Galaxy Fold, Galaxy S8+ or Huawei P30. The decision was made to remove the secondary nav-bar from display on screens of this size (below 375px width) and free up that space for page content.
+- The two videos displayed in the gallery had been encoded with an anamorphic setting. This didn't appear to be an issue as the videos displayed in the intended aspect ratio on all the emulated viewports in Chrome's Dev Tools. However, upon testing with the Mac os via browserstack the videos appeared squashed into a square aspect ratio. The solution taken was simply to republish the videos with a fixed 16.9 aspect.
 
 ### Browser and OS testing
 
@@ -226,7 +226,7 @@ In choosing which combinations of device, operating system and browser to test w
 
 ### Lighthouse Testing
 
-Used Google Chromes 'Lighthouse' dev tool to assess the deployed site for Performance, Accessibility, Best Practices and Search Engine Optimisation. During development I periodly checked the lighthouse assessment and made the occational change as directed.
+Used Google Chromes 'Lighthouse' dev tool to assess the deployed site for Performance, Accessibility, Best Practices and Search Engine Optimisation. During development, I periodically checked the lighthouse assessment and made the occasional change as directed.
 
 This included:
 - Changing the red highlight colour to a brighter red to improve contrast with the background.
