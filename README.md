@@ -45,7 +45,7 @@ Users of the site will be able to find information on the artist, see examples o
 
 ## Wireframes
 
-Here is a PDF of the wireframes put together at the sites inception. Adobe photoshop was used to visually plan the sites look and layout.
+Here is a PDF of the wireframes put together at the sites inception. Adobe photoshop was used to visually plan the sites look and layout using an iPhone Xs (375x812) and a Dell laptop (1920x1080) as reference for viewport size/ratio.
 
 [Wireframes.pdf](https://github.com/0davidog/flatbythecemetery/files/12063710/Wireframes.pdf)
 
