@@ -27,11 +27,12 @@ Visitors to the site will be able to find information on the artist, see example
     + [Link Tests](#link-tests)
     + [Contact Form Test](#contact-form-test)
     + [Initial Screen Size Tests](#initial-screen-size-tests)
-    + [Defects](#defects)
+    + [Bugs](#bugs)
     + [Browser and OS testing](#browser-and-os-testing)
     + [Market Research](#market-research)
     + [Validator Testing](#validator-testing)
     + [Lighthouse Testing](#lighthouse-testing)
+    + [Unfixed Bugs](#unfixed-bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
 
@@ -177,13 +178,25 @@ For the sake of responsivity the site was frequently tested against various scre
 |Nest Hub Max|1280x800|
 |Windows laptop|1920x1080|
 
-### Defects
+### Bugs
 
 In testing the site over time there were many challenges that presented themselves, especially when testing across devices and viewport sizes. These provided opportunities to tweak various aspects of the code to ensure the site looks appropriate across platforms.
 
 This included;
 - The second navigation bar introduced in the gallery pages, while allowing for an even clearer version of the links otherwise presented as images, proved to take up valuable viewport space needed on small devices such as the Galaxy Fold, Galaxy S8+ or Huawei P30. The decision was made to remove the secondary nav-bar from display on screens of this size (below 375px width) and free up that space for page content.
 - The two videos displayed in the gallery had been encoded with an anamorphic setting. This didn't appear to be an issue as the videos displayed in the intended aspect ratio on all the emulated viewports in Chrome's Dev Tools. However, upon testing with the Mac os via browserstack the videos appeared squashed into a square aspect ratio. The solution taken was simply to republish the videos with a fixed 16.9 aspect.
+- I found the images unresponsive to screen size changes at one time and found that my css was targeting the pictue element. Changing the target to the img element fixed the issue.
+```
+.picture-frame picture{
+	width: 100%;
+}
+```
+to
+```
+.picture-frame img{
+	width: 100%;
+}
+```
 
 ### Browser and OS testing
 
@@ -263,6 +276,10 @@ The lighthouse results for the deployed site are as follows:
 |gallery-image-15|100|100|100|100|[lighthouse-screen-23](https://github.com/0davidog/flatbythecemetery/assets/135815736/a75ab231-73e0-4490-9f1a-f3442d0919fe)|
 |gallery-image-16|100|100|100|90|[lighthouse-screen-24](https://github.com/0davidog/flatbythecemetery/assets/135815736/6836de7c-6c6f-4fb4-a517-8e095413ccd7)|
 
+## Unfixed Bugs
+
+No known bugs remain unfixed.
+
 ## Deployment
 
 The website is deployed on [Github](https://github.com/) using GithubPages. This is done by accessing the github repository, navigate to settings, and selecting master branch from the source menu.
@@ -328,6 +345,8 @@ The website is deployed on [Github](https://github.com/) using GithubPages. This
 #### Media
 
 All images and video used are the author's own work.
+
+#### Acknowledgements
 
 #### Author
 
