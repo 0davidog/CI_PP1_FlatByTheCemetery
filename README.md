@@ -371,7 +371,7 @@ All images and video used are the author's own work.
 
 #### Acknowledgements
 
-- Much of the learning and code framwork is taken from the html and css essentials and Love-Running modules.
+- Much of the learning and code framwork is inspired by the html and css essentials and Love-Running modules in the Code Institute Software Development Course.
 
 #### Mentor
 
