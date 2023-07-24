@@ -4,7 +4,8 @@ _Author: David O'Gara_
 
 Flat by the Cemetery is an interactive Front-End web application using HTML and CSS to present a portfolio website that showcases the visual work of an artist/illustrator.
 
-Users of the site will be able to find information on the artist, see examples of their work, and get in touch via a contact form or social media links. The target audience of the website are people, like-minded to the author and potential clients or collaborators that may wish to learn more about the work or follow any future developments. The project goal for the site owner is to drive engagement and interest with the artist's work by providing a visual demonstration/overview of the work.
+Users of the site will be able to find information on the artist, see examples of their work, and get in touch via a contact form or social media links. The target audience of the website are people, like-minded to the author and potential clients or collaborators that may wish to learn more about the work or follow any future developments. 
+The project goal for the site owner is to drive engagement and interest with the artist's work by providing a visual demonstration/overview of the work. An additional goal is to build and demonstrate skill regarding HTML and CSS based web design for the site author.
 
 ![am-i-responsive-image](https://github.com/0davidog/flatbythecemetery/assets/135815736/4541a755-539d-4e64-8409-3ba444810770)
 
@@ -52,6 +53,7 @@ Here is a PDF of the wireframes put together at the sites inception. Adobe photo
 ## Features
 
 ### Main Image
+
 - The first thing a user will take notice of is the large background image that dominates the index page. This will immediately give the user an idea what the site is about and sets the tone stylistically for the content within.
 - A short line of description 'Art and illustration by David C. O’Gara. Based in Derbyshire, UK" is in front of the image in varying positions dependent of screen size. This will let the user know the subject of the site if they weren't already aware. The container has a black background at half transparency to aid in readability and contrast against the page's background image.
 
@@ -110,6 +112,7 @@ The font choice for the site is the serif font Palatino as this resembles the te
 ![Screenshot 2023-07-16 at 13-23-14 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/ae1565c9-321b-4131-bd77-a94d1eede2a6)
 
 ### About section
+
   - About section contains a paragraph which gives an overview of the artist and their work as well as links to Instagram, Youtube and Linkedin.
   - The section is also decorated with the same image use as the index background, used here as an aside to the text.
   - This page is intended to give the audience an introduction to the author and suggest ways in which they can interect or connect in addition to the on-site contact form.
@@ -117,6 +120,7 @@ The font choice for the site is the serif font Palatino as this resembles the te
 ![Screenshot 2023-07-16 at 16-39-44 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/6fe96578-26cb-49f0-8e03-c114306bbb8d)
 
 ### Contact Form
+
   - The 'Contact' page contains a form in which the user can get in touch with the artist.
   - Form elements include text inputs for name, email and subject and a text field for message content.
   - A submit button, styled in red follows.
