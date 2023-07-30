@@ -96,6 +96,11 @@ footer {
 	word-spacing: 10px;
 	padding-bottom: 10px;
 }
+/* Adding interactive behavior for social icons */
+a i:hover {
+	color: #888888;
+	transform: scale(1.25);
+}
 /* Styling and positioning Gallery thumnail grid */
 .thumbnail-wrap {
 	margin-top: 110px;
