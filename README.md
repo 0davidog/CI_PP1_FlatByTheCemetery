@@ -23,6 +23,7 @@ The project goal for the site owner is to drive engagement and interest with the
     + [Gallery Section](#gallery-section)
     + [About section](#about-section)
     + [Contact Form](#contact-form)
+    + [404 Error Page](#404-error-page)
   - [Future Features](#future-features)
   - [Testing](#testing)
     + [Link Tests](#link-tests)
@@ -300,7 +301,25 @@ No known bugs remain unfixed.
 
 ## Deployment
 
-The website is deployed on [Github](https://github.com/) using GithubPages. This is done by accessing the github repository, navigate to settings, and selecting master branch from the source menu.
+The website is deployed on [Github](https://github.com/) using GithubPages. 
+The instructions for this are as follows:
+
+- Navigate to the settings tab in the Github repository.
+  
+![Screenshot 2023-07-30 at 16-40-46 0davidog_flatbythecemetery Artist Portfolio  Project 01](https://github.com/0davidog/flatbythecemetery/assets/135815736/6a60e5e1-cbd1-4678-b57f-ae54fd67c312)
+
+- In the left hand menu, navigate to 'Pages', under 'Code and Automation'.
+  
+![github-pages-menu](https://github.com/0davidog/flatbythecemetery/assets/135815736/a560845a-8b95-4b39-97f0-812cce082eb1)
+
+- Select 'main' as the branch in the dropdown menu under 'Build and Deployment' and hit 'Save'.
+  
+![github-pages-menu-branch](https://github.com/0davidog/flatbythecemetery/assets/135815736/5e2d0e0b-370d-4bbf-ac9c-0d400e186c11)
+
+- Once ready the url for the deployed site will be available at the top of the page.
+
+![Screenshot 2023-07-30 at 17-00-43 0davidog_flatbythecemetery Artist Portfolio  Project 01](https://github.com/0davidog/flatbythecemetery/assets/135815736/2beb814e-867f-4db6-864b-10cff9adb7dd)
+
 - [LINK](https://0davidog.github.io/flatbythecemetery/index.html)
 
 ## Credits
