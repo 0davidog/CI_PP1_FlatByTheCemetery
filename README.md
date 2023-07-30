@@ -133,6 +133,13 @@ The font choice for the site is the serif font Palatino as this resembles the te
 
 ![Screenshot 2023-07-16 at 14-03-46 Returned form data](https://github.com/0davidog/flatbythecemetery/assets/135815736/a2c16409-d6f7-4ce8-b3a4-a4aaa845b4b1)
 
+### 404 Error Page
+
+- A custom 404 error page was created in the style of the rest of the site with the header and footers from the other pages.
+- This provides the user with the navigation options to return to the start or another page without the error seeming too jarring or frustrating.
+  
+![Screenshot 2023-07-30 at 16-32-12 Flat by the Cemetery](https://github.com/0davidog/flatbythecemetery/assets/135815736/dd79f5a9-c9c5-4228-89f0-834ec9a3b0f5)
+
 ## Future Features
 
 - A fix of the contact form to allow for fully functional email capabilities.
