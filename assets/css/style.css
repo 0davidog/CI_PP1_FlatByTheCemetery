@@ -60,6 +60,17 @@ nav a:hover {
 .active-link {
 	color: #ff0000;
 }
+/* Appling style and positioning to 404error page */
+#error-box {
+	height: 100vh;
+	text-align: center;
+}
+#error-messsage {
+	margin-top: 110px;
+	padding: 25px;
+	display: inline-block;
+	text-align: left;
+}
 /* Formatting the background image for div container on index page */
 #index-background {
 	background-image: url('../images/background-image-church.webp');
