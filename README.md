@@ -348,6 +348,7 @@ The instructions for this are as follows:
 - [Multi Device Image in README generated with 'Am I Responsive?'](https://ui.dev/amiresponsive)
 - [Table of contents in README generated with markdown-toc](http://ecotrust-canada.github.io/markdown-toc/')
 - [Colour palate image in README generated with coolors.co](https://coolors.co/)
+- [Favicon icons and code courtesy of favicon.io](https://favicon.io/favicon-converter/)
 
 #### Flex Grid Tutorial
 
