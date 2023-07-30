@@ -254,7 +254,7 @@ In choosing which combinations of device, operating system and browser to test w
    
 ![Screenshot 2023-07-22 at 13-25-42 W3C CSS Validator results for https __0davidog github io_flatbythecemetery_index html (CSS level 3 SVG)](https://github.com/0davidog/flatbythecemetery/assets/135815736/b4b24d1b-f42a-489c-bb9c-296b0c9d7bae)
 
-- [CSS full screenshot here](https://github.com/0davidog/flatbythecemetery/assets/135815736/01625ff2-fd79-4109-b755-b5147cac780d)
+- [CSS full screenshot here](https://github.com/0davidog/flatbythecemetery/assets/135815736/964b4b95-8608-44f7-968a-7c767e10758f)
 
 ### Lighthouse Testing
 
