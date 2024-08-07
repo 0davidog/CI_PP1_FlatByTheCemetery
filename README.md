@@ -40,10 +40,10 @@ The project goal for the site owner is to drive engagement and interest with the
 
 ## Deployed Website
 
-[Flat by the Cemetery](https://0davidog.github.io/flatbythecemetery/index.html) via Github Pages.
+[Flat by the Cemetery](https://0davidog.github.io/CI_PP1_flatbythecemetery/index.html) via Github Pages.
 
 ## Repository
-[Github](https://github.com/0davidog/flatbythecemetery/) Repository. 
+[Github](https://github.com/0davidog/CI_PP!_flatbythecemetery/) Repository. 
 
 ## Wireframes
 
