@@ -2,6 +2,8 @@
 
 _Author: David O'Gara_
 
+<em>This is the unaltered original version of this project, created for the Code Institute Full Stack Software Developer course.</em>
+
 Flat by the Cemetery is an interactive Front-End web application using HTML and CSS to present a portfolio website that showcases the visual work of an artist/illustrator.
 
 Users of the site will be able to find information on the artist, see examples of their work, and get in touch via a contact form or social media links. The target audience of the website are people, like-minded to the author and potential clients or collaborators that may wish to learn more about the work or follow any future developments. 
